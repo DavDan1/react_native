@@ -7,38 +7,34 @@ import SecondScreen from './screen/SecondScreen'
 
 const Stack = createStackNavigator();
 const App = () => {
-  const name = 'MyApplication';
+  const options = {
+    headerStyle: {
+      backgroundColor: '#FDC12A',
+    },
+    headerTintColor: '#000',
+    headerTitleStyle: {
+      fontSize: 24,
+    },
+    headerRight: () => (
+      <View>
+        <Text style={styles.text}>v. 0.0.01</Text>
+      </View>
+    ),
+  };
 
   return (
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name={name}
+          name={'FAKEST NEWS'}
           component={FirstScreen}
-          options={() => ({
-            headerStyle: {
-              backgroundColor: '#892b2f',
-            },
-            headerTintColor: '#ffff',
-            headerTitleStyle: {
-              fontWeight: 'bold',
-              fontSize: 20,
-            },
-            headerRight: () => (
-              <View>
-                <Text>Is this working? </Text>
-              </View>
-            )
-          })
-        }
+          options={() => options}
         />
         <Stack.Screen 
-        name='Second Screen' 
+        name='Second Screen'
         component={SecondScreen}
-        options ={() => ({
-          headerBackTitle: 'Back?'
-        })}
-        />
+        options={() => options}
+         />
       </Stack.Navigator>
     </NavigationContainer>
   );
