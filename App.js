@@ -38,7 +38,7 @@ const App = () => {
         options ={() => ({
           headerBackTitle: 'Back?'
         })}
-        ></Stack.Screen>
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
