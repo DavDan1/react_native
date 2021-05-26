@@ -1,12 +1,19 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet, Text, View } from 'react-native'
 
 const SecondScreen = (props) => {
-  const name = props.route.params.name
+  const article = props.route.params
   return (
+    <>
+    <Image
+    source={{ uri: article.image}}
+    style={styles.image}
+    />
     <View style={styles.container}>
-      <Text style={styles.header}>Yooo!! {props.route.params.name}</Text>
+      <Text style={styles.header}>{article.title}</Text>
+      <Text style={styles.teaser}>{article.teaser}</Text>
     </View>
+    </>
   )
 }
 
