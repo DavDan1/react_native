@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6222ab0d-cbc0-4435-9cc0-a0e5b9a578bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/screen/SecondScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screen/SecondScreen.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1t4kqENid6Bb9JCf4mQ7p9OOLKj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6222ab0d-cbc0-4435-9cc0-a0e5b9a578bc" name="Default Changelist" comment="" />
+      <created>1622035939377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622035939377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2282" y="569" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622036114310">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2282" y="569" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.997/1920.0.2560.1440@1920.0.2560.1440" timestamp="1622036114310" />
+    <state x="2270" y="422" width="1190" height="764" key="AVDManager" timestamp="1622036200042">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2270" y="422" width="1190" height="764" key="AVDManager/0.27.1920.997/1920.0.2560.1440@1920.0.2560.1440" timestamp="1622036200042" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1622036178339">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.27.1920.997/1920.0.2560.1440@1920.0.2560.1440" timestamp="1622036178339" />
+    <state x="2419" y="647" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1622036096140">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2419" y="647" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.997/1920.0.2560.1440@1920.0.2560.1440" timestamp="1622036096140" />
+    <state x="2429" y="340" key="run.anything.popup" timestamp="1622036178344">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2429" y="340" key="run.anything.popup/0.27.1920.997/1920.0.2560.1440@1920.0.2560.1440" timestamp="1622036178344" />
+  </component>
+</project>
