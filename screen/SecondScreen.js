@@ -11,7 +11,6 @@ const SecondScreen = (props) => {
   const article = props.route.params.article;
   return (
     <>
-    
     <Image source={{ uri: article.image }} style={styles.image} />
       <View style={styles.container}>
         <Text style={styles.header}>{article.title}</Text>
