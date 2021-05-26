@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, StyleSheet, Text, View, FlatList } from 'react-native';
+import { StyleSheet, View, FlatList } from 'react-native';
 import axios from 'axios';
 import Article from './Article';
 
@@ -21,9 +21,15 @@ const FirstScreen = ({ navigation }) => {
     <View style={styles.container}>
       <FlatList
         data={articles}
-        keyExtractor={(article)=> article.id.toString()}
+        keyExtractor={(article) => article.id.toString()}
         renderItem={({ item }) => {
-          return <Article article={item} navigation={navigation} />;
+          return (
+            <Article
+              // testID={`article-${item.id}`}
+              article={item}
+              navigation={navigation}
+            />
+          );
         }}
       />
     </View>

@@ -17,7 +17,7 @@ const App = () => {
     },
     headerRight: () => (
       <View>
-        <Text style={styles.text}>v. 0.0.01</Text>
+        <Text style={styles.text}>Dav's App</Text>
       </View>
     ),
   };
