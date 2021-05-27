@@ -2,8 +2,9 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import FirstScreen from './screen/FirstScreen';
-import SecondScreen from './screen/SecondScreen'
+import FirstScreen from './screens/FirstScreen';
+import SecondScreen from './screens/SecondScreen';
+import Authentication from './screens/Authentication';
 
 const Stack = createStackNavigator();
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
     },
     headerRight: () => (
       <View>
-        <Text style={styles.text}>v. 0.0.01</Text>
+        <Text style={styles.text}>My Application</Text>
       </View>
     ),
   };
@@ -25,16 +26,19 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+        <Stack.Screen 
+          name='Authentication' 
+          component={Authentication} />
         <Stack.Screen
           name={'FAKEST NEWS'}
           component={FirstScreen}
           options={() => options}
         />
-        <Stack.Screen 
-        name='Second Screen'
-        component={SecondScreen}
-        options={() => options}
-         />
+        <Stack.Screen
+          name='Second Screen'
+          component={SecondScreen}
+          options={() => options}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
