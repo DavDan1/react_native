@@ -18,7 +18,7 @@ const App = () => {
     },
     headerRight: () => (
       <View>
-        <Text style={styles.text}>My Application</Text>
+        <Text style={styles.text}>Dav's App</Text>
       </View>
     ),
   };
